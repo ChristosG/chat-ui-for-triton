@@ -133,7 +133,7 @@ class UserData:
         ]
         self.response_tokens = []
 
-TAVILY_API_KEY = "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"
+TAVILY_API_KEY = ""
 
 if not TAVILY_API_KEY:
     raise ValueError("TAVILY_API_KEY environment variable not set.")
